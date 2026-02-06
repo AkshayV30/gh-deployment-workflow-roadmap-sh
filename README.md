@@ -14,13 +14,13 @@ The website displays a basic message and is hosted directly from this repository
 - Uses **GitHub Actions** to automate deployment
 - Deploys a static website to **GitHub Pages**
 - Only runs the deployment workflow when `index.html` is changed
-- Updates the live website automatically on every qualifying push to the `main` branch
+- Updates the live website automatically on every qualifying push to the `master` branch
 
 ---
 
 ## How It Works
 
-1. A change is pushed to the `main` branch
+1. A change is pushed to the `master` branch
 2. GitHub checks whether `index.html` was modified
 3. If it was, the GitHub Actions workflow runs
 4. The updated site is deployed to **GitHub Pages**
@@ -58,7 +58,7 @@ This ensures deployments only happen when relevant content changes, which is a k
 
 ## Deployment Workflow
 
-- Triggered on pushes to the `main` branch
+- Triggered on pushes to the `master` branch
 - Runs **only if `index.html` is modified**
 - Uses GitHub Actions to publish the site to GitHub Pages
 
@@ -72,7 +72,7 @@ Once deployed, the website is available at:
 
 ```
 
-https://<username>.github.io/gh-deployment-workflow/
+https://akshayv30.github.io/gh-deployment-workflow-roadmap-sh/
 
 ```
 
